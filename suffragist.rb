@@ -1,5 +1,19 @@
 require 'sinatra'
 
 get '/' do
-  'Hello, voter!'
+  @title = 'Welcome to the Suffragist!'
+  erb :index
 end
+
+post '/cast' do
+  @title = 'Thanks for casing your vote!'
+  @vote = params['vote']
+  erb :cast
+end
+
+Choices = {
+  'HAM' => 'Hamburger',
+  'PIZ' => 'Pizza',
+  'CUR' => 'Curry',
+  'NOO' => 'Noodles',
+}
