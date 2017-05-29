@@ -30,6 +30,6 @@ Choices = {
   'PIZ' => 'Pizza',
   'CUR' => 'Curry',
   'NOO' => 'Noodles',
-  'YUM' => 'Chocolate Ice Cream',
-  'ARR' => 'Arroz Con Pollo' 
+  'YUM' => 'Chocolate Ice Cream',   #Coded by icf_diva
+  'ARR' => 'Arroz Con Pollo'        #Coded by icf_diva
 }
